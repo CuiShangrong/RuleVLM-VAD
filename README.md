@@ -1,4 +1,4 @@
-# DenseRuleLoRA-VAD
+# RuleVLM-VAD
 
 **Dense temporal Direct VLM baselines for weakly-supervised ShanghaiTech video anomaly detection.**
 
@@ -8,12 +8,12 @@ This release packages three completed Qwen3.8-27B experiments:
    retrieval, I3D feature, or adaptation.
 2. **Weakly-Supervised LoRA Direct VLM** — source-only video-level normal/abnormal
    weak labels with MIL; Qwen vision encoder and base language-model weights are frozen.
-3. **RuleLoRA-VAD** — the same LoRA inference protocol, with all normal-behavior
+3. **RuleVLM-VAD** — the same LoRA inference protocol, with all normal-behavior
    rules induced solely from source-domain normal training videos inserted before
    the unchanged Direct VLM prompt.
 
 The repository name and display name are deliberately short enough for a GitHub
-project while describing the final method: **DenseRuleLoRA-VAD**.
+project while describing the final method: **RuleVLM-VAD**.
 
 ## Method in one diagram
 
@@ -43,7 +43,7 @@ You are given eight chronological surveillance frames from one approximately 10-
 ```
 
 The continuous score is `exp(logP(1)) / (exp(logP(0)) + exp(logP(1)))`, not a
-verbalized confidence score. RuleLoRA-VAD adds a source-only normal-rule prefix
+verbalized confidence score. RuleVLM-VAD adds a source-only normal-rule prefix
 before this user prompt; no target label, GT interval, target rule, or target
 adaptation is supplied.
 
@@ -71,7 +71,7 @@ adaptation is supplied.
 | `artifacts/zero_shot/` | Locked dense zero-shot target predictions, configurations and evaluations. |
 | `artifacts/lora/` | Formal LoRA adapters, source splits, logs, locks, dense predictions and evaluations. |
 | `artifacts/lora_all_rules/` | Source-normal descriptions, induced rules, rule classifications, rule-prompt predictions and evaluations. |
-| `results/` | Consolidated RuleLoRA-VAD results. |
+| `results/` | Consolidated RuleVLM-VAD results. |
 | `env/` | Dependency and exact environment record. |
 
 The release intentionally excludes ShanghaiTech raw videos/frames/GT, I3D
@@ -88,7 +88,7 @@ therefore repeats by target rather than source→target setup.
 | --- | --- | --- | --- | --- | --- |
 | Dense zero-shot | 0.715310 / 0.127525 / 0.473863 | 0.779870 / 0.163761 / 0.610319 | 0.779870 / 0.163761 / 0.610319 | 0.715310 / 0.127525 / 0.473863 | 0.766390 / 0.231664 / 0.583061 |
 | Weakly-supervised LoRA | 0.902855 / 0.290461 / 0.520079 | 0.820182 / 0.222486 / 0.624405 | 0.815538 / 0.248949 / 0.571743 | 0.728582 / 0.124542 / 0.436631 | 0.897463 / 0.343179 / 0.589900 |
-| RuleLoRA-VAD (all source rules) | 0.924567 / 0.378956 / 0.586415 | 0.862383 / 0.238870 / 0.728371 | 0.885392 / 0.271743 / 0.710591 | 0.887586 / 0.292733 / 0.533067 | 0.912386 / 0.377532 / 0.618048 |
+| RuleVLM-VAD (LoRA + all source rules) | 0.924567 / 0.378956 / 0.586415 | 0.862383 / 0.238870 / 0.728371 | 0.885392 / 0.271743 / 0.710591 | 0.887586 / 0.292733 / 0.533067 | 0.912386 / 0.377532 / 0.618048 |
 
 `results/results_summary.csv` is the machine-readable all-rules table. All
 published evaluation files were generated only after their corresponding
