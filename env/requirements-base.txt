@@ -1,0 +1,8 @@
+# Install into a fresh environment after provisioning a CUDA/GB200-compatible PyTorch.
+# These are the experiment-side package versions recorded on the server.
+numpy==2.3.5
+Pillow==12.3.0
+transformers==5.15.1
+accelerate==1.12.0
+peft==0.19.1
+pytest

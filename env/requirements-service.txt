@@ -1,0 +1,3 @@
+# Local OpenAI-compatible Qwen service used for the zero-shot runs.
+# Do not install this into the LoRA environment unless its CUDA/PyTorch ABI is compatible.
+vllm==0.27.1

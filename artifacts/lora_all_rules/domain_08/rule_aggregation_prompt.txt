@@ -1,0 +1,7 @@
+You consolidate factual normal surveillance descriptions into transferable normal-behavior rules. Return JSON only.
+
+The following descriptions are from 08 normal training clips only. Do not add facts beyond them.
+Deduplicate, merge, and abstract them into exactly 12 short independent normal-behavior rules. Each rule must express exactly one normality condition, contain at most 12 English words, not be a frame-level description or anomaly type, and preserve one or two supporting description IDs only.
+Return strict JSON only: {"rules":[{"rule_id":"R001","rule":"...","source_description_ids":["..."]}]}
+
+Descriptions:

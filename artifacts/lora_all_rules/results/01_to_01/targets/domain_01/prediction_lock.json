@@ -1,0 +1,7 @@
+{
+  "gt_read_before_lock": false,
+  "length": 41120,
+  "prediction": "/workspace/direct_vlm/fair_tuned/rule_prompt_runs/v2_all_source_rules_full/variants/01_to_01/targets/domain_01/frame_scores.npy",
+  "sha256": "be8c3a2c52006f34145765239b6014ac53704c5a0da136dcbbe42a348c824560",
+  "target_name": "domain_01"
+}

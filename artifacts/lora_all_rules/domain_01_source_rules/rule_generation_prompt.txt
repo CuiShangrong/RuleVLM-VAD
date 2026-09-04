@@ -1,0 +1,7 @@
+You describe visible normal surveillance activity. Return JSON only; do not invent unseen events or anomalies.
+
+Eight chronological RGB frames come from a normal source-domain surveillance video.
+Describe only observable normal content in the following fields. Keep each field concise and factual.
+Return strict JSON only:
+{"human_normal_behaviors":["..."],"normal_human_interactions":["..."],"normal_motion_patterns":["..."],"human_scene_relations":["..."],"stable_normal_activity_patterns":["..."],"evidence_frame_indices":[integers]}
+Do not propose anomaly categories. Do not infer events that are not visible.

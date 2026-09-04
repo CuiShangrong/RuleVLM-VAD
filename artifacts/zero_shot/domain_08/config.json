@@ -1,0 +1,185 @@
+{
+  "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+  "gt_read": false,
+  "method": "Direct Qwen3.8-27B dense forced-choice token-probability zero-shot",
+  "model": "Qwen/Qwen3.8-27B",
+  "prompt": "You are given eight chronological surveillance frames from one approximately 10-second clip. Based only on visible evidence, classify the clip. Focus on human actions, interactions, vehicles, falls, fights, abnormal motion, and abnormal objects. Do not infer unseen events. Output exactly one character: 0 for normal or 1 for abnormal.",
+  "prompt_sha256": "c28017aaada03d682c46c41b5ca20332b0297b140370021080506d3f501ebf55",
+  "recovery": {
+    "extra_smoothing": "none",
+    "method": "linear_interpolation_at_temporal_centers"
+  },
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "sampling": {
+    "boundary_policy": "truncate_valid_context_and_repeat_only_image_slots",
+    "center_stride_frames": 16,
+    "context_frames": 240,
+    "nominal_context_seconds": 10.0,
+    "nominal_fps": 24,
+    "sample_count": 8
+  },
+  "scoring": {
+    "continuous_score": "exp(logP1)/(exp(logP0)+exp(logP1))",
+    "forced_choices": [
+      "0",
+      "1"
+    ],
+    "max_new_tokens": 1,
+    "temperature": 0,
+    "top_logprobs": 20
+  },
+  "seed": 2022,
+  "smoke": false,
+  "source_data_used": false,
+  "source_domain": null,
+  "system_prompt": "You are a visual anomaly detector. Output only 0 or 1.",
+  "target_domain": "08",
+  "target_manifest": [
+    {
+      "frame_count": 337,
+      "prediction_length": 352,
+      "video_id": "08_0058"
+    },
+    {
+      "frame_count": 457,
+      "prediction_length": 464,
+      "video_id": "08_0077"
+    },
+    {
+      "frame_count": 289,
+      "prediction_length": 304,
+      "video_id": "08_0080"
+    },
+    {
+      "frame_count": 313,
+      "prediction_length": 320,
+      "video_id": "08_0157"
+    },
+    {
+      "frame_count": 337,
+      "prediction_length": 352,
+      "video_id": "08_0158"
+    },
+    {
+      "frame_count": 816,
+      "prediction_length": 816,
+      "video_id": "08_001"
+    },
+    {
+      "frame_count": 1297,
+      "prediction_length": 1312,
+      "video_id": "08_002"
+    },
+    {
+      "frame_count": 769,
+      "prediction_length": 784,
+      "video_id": "08_004"
+    },
+    {
+      "frame_count": 784,
+      "prediction_length": 784,
+      "video_id": "08_006"
+    },
+    {
+      "frame_count": 784,
+      "prediction_length": 784,
+      "video_id": "08_007"
+    },
+    {
+      "frame_count": 785,
+      "prediction_length": 800,
+      "video_id": "08_008"
+    },
+    {
+      "frame_count": 720,
+      "prediction_length": 720,
+      "video_id": "08_010"
+    },
+    {
+      "frame_count": 721,
+      "prediction_length": 736,
+      "video_id": "08_011"
+    },
+    {
+      "frame_count": 936,
+      "prediction_length": 944,
+      "video_id": "08_016"
+    },
+    {
+      "frame_count": 1321,
+      "prediction_length": 1328,
+      "video_id": "08_021"
+    },
+    {
+      "frame_count": 817,
+      "prediction_length": 832,
+      "video_id": "08_023"
+    },
+    {
+      "frame_count": 744,
+      "prediction_length": 752,
+      "video_id": "08_024"
+    },
+    {
+      "frame_count": 745,
+      "prediction_length": 752,
+      "video_id": "08_025"
+    },
+    {
+      "frame_count": 1081,
+      "prediction_length": 1088,
+      "video_id": "08_028"
+    },
+    {
+      "frame_count": 900,
+      "prediction_length": 912,
+      "video_id": "08_029"
+    },
+    {
+      "frame_count": 901,
+      "prediction_length": 912,
+      "video_id": "08_030"
+    },
+    {
+      "frame_count": 800,
+      "prediction_length": 800,
+      "video_id": "08_032"
+    },
+    {
+      "frame_count": 804,
+      "prediction_length": 816,
+      "video_id": "08_034"
+    },
+    {
+      "frame_count": 1105,
+      "prediction_length": 1120,
+      "video_id": "08_037"
+    },
+    {
+      "frame_count": 1177,
+      "prediction_length": 1184,
+      "video_id": "08_043"
+    },
+    {
+      "frame_count": 797,
+      "prediction_length": 800,
+      "video_id": "08_045"
+    },
+    {
+      "frame_count": 797,
+      "prediction_length": 800,
+      "video_id": "08_046"
+    },
+    {
+      "frame_count": 797,
+      "prediction_length": 800,
+      "video_id": "08_047"
+    },
+    {
+      "frame_count": 797,
+      "prediction_length": 800,
+      "video_id": "08_048"
+    }
+  ],
+  "target_name": "domain_08"
+}

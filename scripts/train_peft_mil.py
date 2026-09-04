@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+import argparse,sys
+from pathlib import Path
+sys.path[:0]=[str(Path(__file__).resolve().parents[1]/'vendor'),str(Path(__file__).resolve().parents[3]/'UR-DMU')]
+from vlm_baselines.fair_unified import fair_config, train_peft_mil
+p=argparse.ArgumentParser();p.add_argument('--workspace',required=True);p.add_argument('--run-root',required=True);p.add_argument('--source',choices=['01','08','mixed'],required=True);p.add_argument('--model-path',required=True);p.add_argument('--epochs',type=int,default=3);p.add_argument('--lr',type=float,default=1e-4);p.add_argument('--topk',type=int,default=2);p.add_argument('--clips-per-video',type=int,default=8);p.add_argument('--grad-accumulation',type=int,default=4);p.add_argument('--native-resolution',action='store_true');p.add_argument('--max-train-videos-per-class',type=int);p.add_argument('--max-val-videos-per-class',type=int);a=p.parse_args();print(train_peft_mil(a.workspace,a.run_root,a.source,a.model_path,epochs=a.epochs,lr=a.lr,topk=a.topk,clips=a.clips_per_video,cfg=fair_config(native_resolution=a.native_resolution),grad_accumulation=a.grad_accumulation,max_train_videos_per_class=a.max_train_videos_per_class,max_val_videos_per_class=a.max_val_videos_per_class))

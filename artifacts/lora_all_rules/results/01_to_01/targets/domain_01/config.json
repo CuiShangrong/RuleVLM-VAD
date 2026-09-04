@@ -1,0 +1,370 @@
+{
+  "endpoint": "local_transformers",
+  "gt_read": false,
+  "lora_adapter": {
+    "adapter_config_sha256": "27fe3138e1f235b16319f640f224cf5afebfbc278ab6d36487044b2c82dd8fcb",
+    "adapter_model_sha256": "794182ad9bc5c8b54a754e80e7f235c56d31d3e937de101852c0f463959b76cb",
+    "path": "/workspace/direct_vlm/fair_tuned/fair_runs/peft_native_formal_v1/adapters/LoRA_01/selected_adapter",
+    "selected_source_val_mil_loss": 0.08121070251324151,
+    "train_config_sha256": "d4ff6d2efddeb46a7ae0f6416e884be6f67cafe15085c7f0e2bf05e3142411dc",
+    "training_complete_sha256": "64393930eadf19260d4ce43e5d0535f6979b3af877a5603fa7eb37b8013e0c4f"
+  },
+  "method": "Weakly-Supervised PEFT LoRA Direct VLM + all source normal rules",
+  "model": "Qwen/Qwen3.8-27B",
+  "prompt": "Normal-behavior reference rules below were derived only from normal source-domain surveillance clips. Use them as context for visible actions and interactions; do not treat camera layout, background, lighting, or a source/target scene difference alone as abnormal.\nSource rules:\n[R001] Pedestrians walk at a steady, casual pace across the paved plaza.\n[R002] Individuals traverse the open space in continuous, linear paths.\n[R003] Pedestrians maintain personal space while passing others without direct interaction.\n[R004] People carry personal items like backpacks, bags, or umbrellas while walking.\n[R005] Individuals walk side-by-side or in small, loose groups.\n[R006] Some pedestrians look down at handheld devices while walking.\n[R007] Walking behavior is consistent without sudden stops or erratic movements.\n[R008] Pedestrians navigate around static features like manhole covers and trash bins.\n[R009] Individuals walk near the edge of grassy areas or curbs.\n[R010] Small groups may stand briefly near the walkway edge.\n[R011] Pedestrians move in various directions, including towards or away from camera.\n[R012] Casual recreational activities like kicking a ball occur in open areas.\n\nYou are given eight chronological surveillance frames from one approximately 10-second clip. Based only on visible evidence, classify the clip. Focus on human actions, interactions, vehicles, falls, fights, abnormal motion, and abnormal objects. Do not infer unseen events. Output exactly one character: 0 for normal or 1 for abnormal.",
+  "prompt_sha256": "a44c123edc6444236192339eea6b137ee765e077062d49e41c464357513340c8",
+  "recovery": {
+    "extra_smoothing": "none",
+    "method": "linear_interpolation_at_temporal_centers"
+  },
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "rule_prompt": {
+    "actual_prompt_text_token_count": 377,
+    "base_prompt_text_token_count": 99,
+    "prompt_characters": 1528,
+    "prompt_sha256": "0b29469b921333c4b174ab963615c095c934d9b8239e43a0898eb8a060eb93fb",
+    "rule_count": 12,
+    "rule_ids": [
+      "R001",
+      "R002",
+      "R003",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R009",
+      "R010",
+      "R011",
+      "R012"
+    ],
+    "rule_mode": "all",
+    "rule_prompt_insert_position": "before_original_lora_direct_prompt",
+    "rules_file": "/workspace/direct_vlm/fair_tuned/rule_prompt_runs/v1_domain01_normal_rules/source_rules/all_source_rules.jsonl",
+    "rules_file_sha256": "fffe1c69633b04589bcf832b9875e354cb474530d25fcb0f8ba7187fcd81ef95",
+    "source_only_validated": true
+  },
+  "sampling": {
+    "boundary_policy": "truncate_valid_context_and_repeat_only_image_slots",
+    "center_stride_frames": 16,
+    "context_frames": 240,
+    "nominal_context_seconds": 10.0,
+    "nominal_fps": 24,
+    "sample_count": 8
+  },
+  "scoring": {
+    "continuous_score": "exp(logP1)/(exp(logP0)+exp(logP1))",
+    "forced_choices": [
+      "0",
+      "1"
+    ],
+    "max_new_tokens": 1,
+    "temperature": 0,
+    "top_logprobs": 20
+  },
+  "seed": 2022,
+  "setup": "01_to_01",
+  "smoke": false,
+  "source_data_used": true,
+  "source_domain": "01",
+  "system_prompt": "You are a visual anomaly detector. Output only 0 or 1.",
+  "target_domain": "01",
+  "target_gt_used": false,
+  "target_manifest": [
+    {
+      "frame_count": 433,
+      "prediction_length": 448,
+      "video_id": "01_0015"
+    },
+    {
+      "frame_count": 601,
+      "prediction_length": 608,
+      "video_id": "01_0025"
+    },
+    {
+      "frame_count": 409,
+      "prediction_length": 416,
+      "video_id": "01_0027"
+    },
+    {
+      "frame_count": 457,
+      "prediction_length": 464,
+      "video_id": "01_0028"
+    },
+    {
+      "frame_count": 337,
+      "prediction_length": 352,
+      "video_id": "01_0051"
+    },
+    {
+      "frame_count": 337,
+      "prediction_length": 352,
+      "video_id": "01_0052"
+    },
+    {
+      "frame_count": 457,
+      "prediction_length": 464,
+      "video_id": "01_0053"
+    },
+    {
+      "frame_count": 313,
+      "prediction_length": 320,
+      "video_id": "01_0055"
+    },
+    {
+      "frame_count": 529,
+      "prediction_length": 544,
+      "video_id": "01_0056"
+    },
+    {
+      "frame_count": 289,
+      "prediction_length": 304,
+      "video_id": "01_0064"
+    },
+    {
+      "frame_count": 409,
+      "prediction_length": 416,
+      "video_id": "01_0135"
+    },
+    {
+      "frame_count": 529,
+      "prediction_length": 544,
+      "video_id": "01_0136"
+    },
+    {
+      "frame_count": 217,
+      "prediction_length": 224,
+      "video_id": "01_0139"
+    },
+    {
+      "frame_count": 313,
+      "prediction_length": 320,
+      "video_id": "01_0141"
+    },
+    {
+      "frame_count": 193,
+      "prediction_length": 208,
+      "video_id": "01_0162"
+    },
+    {
+      "frame_count": 317,
+      "prediction_length": 320,
+      "video_id": "01_0177"
+    },
+    {
+      "frame_count": 764,
+      "prediction_length": 768,
+      "video_id": "01_001"
+    },
+    {
+      "frame_count": 769,
+      "prediction_length": 784,
+      "video_id": "01_004"
+    },
+    {
+      "frame_count": 505,
+      "prediction_length": 512,
+      "video_id": "01_006"
+    },
+    {
+      "frame_count": 1009,
+      "prediction_length": 1024,
+      "video_id": "01_008"
+    },
+    {
+      "frame_count": 737,
+      "prediction_length": 752,
+      "video_id": "01_012"
+    },
+    {
+      "frame_count": 841,
+      "prediction_length": 848,
+      "video_id": "01_018"
+    },
+    {
+      "frame_count": 1009,
+      "prediction_length": 1024,
+      "video_id": "01_021"
+    },
+    {
+      "frame_count": 735,
+      "prediction_length": 736,
+      "video_id": "01_026"
+    },
+    {
+      "frame_count": 943,
+      "prediction_length": 944,
+      "video_id": "01_027"
+    },
+    {
+      "frame_count": 944,
+      "prediction_length": 944,
+      "video_id": "01_028"
+    },
+    {
+      "frame_count": 968,
+      "prediction_length": 976,
+      "video_id": "01_030"
+    },
+    {
+      "frame_count": 1191,
+      "prediction_length": 1200,
+      "video_id": "01_032"
+    },
+    {
+      "frame_count": 889,
+      "prediction_length": 896,
+      "video_id": "01_034"
+    },
+    {
+      "frame_count": 481,
+      "prediction_length": 496,
+      "video_id": "01_038"
+    },
+    {
+      "frame_count": 961,
+      "prediction_length": 976,
+      "video_id": "01_039"
+    },
+    {
+      "frame_count": 1167,
+      "prediction_length": 1168,
+      "video_id": "01_040"
+    },
+    {
+      "frame_count": 877,
+      "prediction_length": 880,
+      "video_id": "01_043"
+    },
+    {
+      "frame_count": 601,
+      "prediction_length": 608,
+      "video_id": "01_045"
+    },
+    {
+      "frame_count": 1056,
+      "prediction_length": 1056,
+      "video_id": "01_047"
+    },
+    {
+      "frame_count": 805,
+      "prediction_length": 816,
+      "video_id": "01_050"
+    },
+    {
+      "frame_count": 961,
+      "prediction_length": 976,
+      "video_id": "01_052"
+    },
+    {
+      "frame_count": 1105,
+      "prediction_length": 1120,
+      "video_id": "01_053"
+    },
+    {
+      "frame_count": 721,
+      "prediction_length": 736,
+      "video_id": "01_055"
+    },
+    {
+      "frame_count": 1009,
+      "prediction_length": 1024,
+      "video_id": "01_056"
+    },
+    {
+      "frame_count": 733,
+      "prediction_length": 736,
+      "video_id": "01_057"
+    },
+    {
+      "frame_count": 733,
+      "prediction_length": 736,
+      "video_id": "01_058"
+    },
+    {
+      "frame_count": 733,
+      "prediction_length": 736,
+      "video_id": "01_059"
+    },
+    {
+      "frame_count": 889,
+      "prediction_length": 896,
+      "video_id": "01_061"
+    },
+    {
+      "frame_count": 649,
+      "prediction_length": 656,
+      "video_id": "01_064"
+    },
+    {
+      "frame_count": 615,
+      "prediction_length": 624,
+      "video_id": "01_065"
+    },
+    {
+      "frame_count": 1051,
+      "prediction_length": 1056,
+      "video_id": "01_071"
+    },
+    {
+      "frame_count": 1052,
+      "prediction_length": 1056,
+      "video_id": "01_072"
+    },
+    {
+      "frame_count": 1040,
+      "prediction_length": 1040,
+      "video_id": "01_074"
+    },
+    {
+      "frame_count": 567,
+      "prediction_length": 576,
+      "video_id": "01_075"
+    },
+    {
+      "frame_count": 553,
+      "prediction_length": 560,
+      "video_id": "01_076"
+    },
+    {
+      "frame_count": 697,
+      "prediction_length": 704,
+      "video_id": "01_077"
+    },
+    {
+      "frame_count": 1033,
+      "prediction_length": 1040,
+      "video_id": "01_078"
+    },
+    {
+      "frame_count": 711,
+      "prediction_length": 720,
+      "video_id": "01_079"
+    },
+    {
+      "frame_count": 787,
+      "prediction_length": 800,
+      "video_id": "01_080"
+    },
+    {
+      "frame_count": 788,
+      "prediction_length": 800,
+      "video_id": "01_081"
+    },
+    {
+      "frame_count": 807,
+      "prediction_length": 816,
+      "video_id": "01_082"
+    }
+  ],
+  "target_name": "domain_01",
+  "unified_preprocessing": {
+    "center_stride": 16,
+    "context_frames": 240,
+    "max_pixels": 16777216,
+    "min_pixels": 65536,
+    "sample_count": 8,
+    "seed": 2022
+  },
+  "unified_transformers_pipeline": true
+}

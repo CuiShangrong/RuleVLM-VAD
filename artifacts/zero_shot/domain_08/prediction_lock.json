@@ -1,0 +1,7 @@
+{
+  "gt_read_before_lock": false,
+  "length": 23168,
+  "prediction": "/workspace/direct_vlm/zero shot/runs/dense_tokenprob_10s/targets/domain_08/frame_scores.npy",
+  "sha256": "d45ce8bd2cec676f594debdf72163b8f4731d6b4ac525a866fa8534aaf4df2c0",
+  "target_name": "domain_08"
+}

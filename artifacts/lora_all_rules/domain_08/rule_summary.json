@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+  "description_count": 50,
+  "all_rule_count": 12,
+  "domain_general_count": 6,
+  "scene_specific_count": 6,
+  "source_domain": "08",
+  "source_label": "normal",
+  "source_abnormal_videos_used": 0,
+  "target_test_or_gt_used": false,
+  "vlm_calls": 2,
+  "sum_vlm_elapsed_seconds": 17.822403340018354
+}

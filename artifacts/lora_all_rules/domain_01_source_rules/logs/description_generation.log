@@ -1,0 +1,18 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "endpoint": "http://official-methods-qwen-gpu2:8000/v1/chat/completions",
+  "seed": 2022,
+  "source_domain": "01",
+  "source_label": "normal",
+  "source_split": "SH_Train.txt",
+  "source_normal_videos": 42,
+  "clips_per_video": 2,
+  "description_count": 84,
+  "source_abnormal_videos_used": 0,
+  "domain08_train_used": false,
+  "target_test_or_gt_used": false,
+  "generation_prompt_sha256": "f9662f0266e64ebdf2473df7abff4497fcdaad3d842e485cf35dd37b50f52148",
+  "vlm_calls": 84,
+  "sum_vlm_elapsed_seconds": 279.4600322849583
+}

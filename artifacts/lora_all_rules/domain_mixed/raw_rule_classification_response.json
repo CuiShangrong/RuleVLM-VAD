@@ -1,0 +1,43 @@
+{
+  "raw_text": "{\n  \"classifications\": [\n    {\n      \"rule_id\": \"R001\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes intrinsic human gait behavior independent of specific scene layout.\"\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of 'open spaces' and specific trajectory geometry.\"\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general social spacing behavior applicable to any shared path.\"\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general interaction norms between pedestrians independent of scene.\"\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general group dynamics and proximity independent of scene.\"\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general group formation behavior independent of scene.\"\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes common pedestrian attributes independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes common pedestrian activity independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific static features like trash bins.\"\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general solitary behavior independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on specific scene elements like grassy borders and curbs.\"\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific density and type of the public outdoor space.\"\n    }\n  ]\n}",
+  "response": {
+    "id": "chatcmpl-9ad0ad15813a21bb",
+    "object": "chat.completion",
+    "created": 1788309629,
+    "model": "Qwen/Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"classifications\": [\n    {\n      \"rule_id\": \"R001\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes intrinsic human gait behavior independent of specific scene layout.\"\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of 'open spaces' and specific trajectory geometry.\"\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general social spacing behavior applicable to any shared path.\"\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general interaction norms between pedestrians independent of scene.\"\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general group dynamics and proximity independent of scene.\"\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general group formation behavior independent of scene.\"\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes common pedestrian attributes independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes common pedestrian activity independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific static features like trash bins.\"\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general solitary behavior independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on specific scene elements like grassy borders and curbs.\"\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific density and type of the public outdoor space.\"\n    }\n  ]\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-fb64ca09",
+    "usage": {
+      "prompt_tokens": 330,
+      "total_tokens": 883,
+      "completion_tokens": 553,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "elapsed_seconds": 6.026955986046232
+}

@@ -1,0 +1,809 @@
+{
+  "center_loads": [
+    3036,
+    3048,
+    3035
+  ],
+  "gt_read": false,
+  "shard_count": 3,
+  "shard_index": 0,
+  "sum_vlm_elapsed_seconds": 7379.774129371741,
+  "target_manifest": [
+    {
+      "frame_count": 433,
+      "prediction_length": 448,
+      "video_id": "01_0015"
+    },
+    {
+      "frame_count": 601,
+      "prediction_length": 608,
+      "video_id": "01_0025"
+    },
+    {
+      "frame_count": 457,
+      "prediction_length": 464,
+      "video_id": "01_0028"
+    },
+    {
+      "frame_count": 313,
+      "prediction_length": 320,
+      "video_id": "01_0055"
+    },
+    {
+      "frame_count": 529,
+      "prediction_length": 544,
+      "video_id": "01_0056"
+    },
+    {
+      "frame_count": 409,
+      "prediction_length": 416,
+      "video_id": "01_0135"
+    },
+    {
+      "frame_count": 529,
+      "prediction_length": 544,
+      "video_id": "01_0136"
+    },
+    {
+      "frame_count": 313,
+      "prediction_length": 320,
+      "video_id": "03_0033"
+    },
+    {
+      "frame_count": 433,
+      "prediction_length": 448,
+      "video_id": "03_0059"
+    },
+    {
+      "frame_count": 361,
+      "prediction_length": 368,
+      "video_id": "04_0012"
+    },
+    {
+      "frame_count": 649,
+      "prediction_length": 656,
+      "video_id": "05_0019"
+    },
+    {
+      "frame_count": 385,
+      "prediction_length": 400,
+      "video_id": "07_0006"
+    },
+    {
+      "frame_count": 457,
+      "prediction_length": 464,
+      "video_id": "07_0008"
+    },
+    {
+      "frame_count": 241,
+      "prediction_length": 256,
+      "video_id": "07_0048"
+    },
+    {
+      "frame_count": 337,
+      "prediction_length": 352,
+      "video_id": "08_0058"
+    },
+    {
+      "frame_count": 433,
+      "prediction_length": 448,
+      "video_id": "10_0042"
+    },
+    {
+      "frame_count": 289,
+      "prediction_length": 304,
+      "video_id": "12_0151"
+    },
+    {
+      "frame_count": 217,
+      "prediction_length": 224,
+      "video_id": "12_0173"
+    },
+    {
+      "frame_count": 737,
+      "prediction_length": 752,
+      "video_id": "01_012"
+    },
+    {
+      "frame_count": 943,
+      "prediction_length": 944,
+      "video_id": "01_027"
+    },
+    {
+      "frame_count": 968,
+      "prediction_length": 976,
+      "video_id": "01_030"
+    },
+    {
+      "frame_count": 961,
+      "prediction_length": 976,
+      "video_id": "01_039"
+    },
+    {
+      "frame_count": 877,
+      "prediction_length": 880,
+      "video_id": "01_043"
+    },
+    {
+      "frame_count": 1056,
+      "prediction_length": 1056,
+      "video_id": "01_047"
+    },
+    {
+      "frame_count": 805,
+      "prediction_length": 816,
+      "video_id": "01_050"
+    },
+    {
+      "frame_count": 721,
+      "prediction_length": 736,
+      "video_id": "01_055"
+    },
+    {
+      "frame_count": 733,
+      "prediction_length": 736,
+      "video_id": "01_057"
+    },
+    {
+      "frame_count": 1033,
+      "prediction_length": 1040,
+      "video_id": "01_078"
+    },
+    {
+      "frame_count": 787,
+      "prediction_length": 800,
+      "video_id": "01_080"
+    },
+    {
+      "frame_count": 807,
+      "prediction_length": 816,
+      "video_id": "01_082"
+    },
+    {
+      "frame_count": 907,
+      "prediction_length": 912,
+      "video_id": "02_001"
+    },
+    {
+      "frame_count": 735,
+      "prediction_length": 736,
+      "video_id": "02_003"
+    },
+    {
+      "frame_count": 300,
+      "prediction_length": 304,
+      "video_id": "02_007"
+    },
+    {
+      "frame_count": 300,
+      "prediction_length": 304,
+      "video_id": "02_008"
+    },
+    {
+      "frame_count": 600,
+      "prediction_length": 608,
+      "video_id": "02_009"
+    },
+    {
+      "frame_count": 225,
+      "prediction_length": 240,
+      "video_id": "02_012"
+    },
+    {
+      "frame_count": 625,
+      "prediction_length": 640,
+      "video_id": "05_005"
+    },
+    {
+      "frame_count": 553,
+      "prediction_length": 560,
+      "video_id": "05_016"
+    },
+    {
+      "frame_count": 1057,
+      "prediction_length": 1072,
+      "video_id": "05_021"
+    },
+    {
+      "frame_count": 768,
+      "prediction_length": 768,
+      "video_id": "05_043"
+    },
+    {
+      "frame_count": 738,
+      "prediction_length": 752,
+      "video_id": "05_049"
+    },
+    {
+      "frame_count": 737,
+      "prediction_length": 752,
+      "video_id": "05_054"
+    },
+    {
+      "frame_count": 737,
+      "prediction_length": 752,
+      "video_id": "05_058"
+    },
+    {
+      "frame_count": 1023,
+      "prediction_length": 1024,
+      "video_id": "06_003"
+    },
+    {
+      "frame_count": 722,
+      "prediction_length": 736,
+      "video_id": "06_018"
+    },
+    {
+      "frame_count": 723,
+      "prediction_length": 736,
+      "video_id": "06_022"
+    },
+    {
+      "frame_count": 1335,
+      "prediction_length": 1344,
+      "video_id": "06_026"
+    },
+    {
+      "frame_count": 753,
+      "prediction_length": 768,
+      "video_id": "06_029"
+    },
+    {
+      "frame_count": 756,
+      "prediction_length": 768,
+      "video_id": "06_030"
+    },
+    {
+      "frame_count": 816,
+      "prediction_length": 816,
+      "video_id": "08_001"
+    },
+    {
+      "frame_count": 784,
+      "prediction_length": 784,
+      "video_id": "08_006"
+    },
+    {
+      "frame_count": 721,
+      "prediction_length": 736,
+      "video_id": "08_011"
+    },
+    {
+      "frame_count": 1321,
+      "prediction_length": 1328,
+      "video_id": "08_021"
+    },
+    {
+      "frame_count": 901,
+      "prediction_length": 912,
+      "video_id": "08_030"
+    },
+    {
+      "frame_count": 1105,
+      "prediction_length": 1120,
+      "video_id": "08_037"
+    },
+    {
+      "frame_count": 1177,
+      "prediction_length": 1184,
+      "video_id": "08_043"
+    },
+    {
+      "frame_count": 797,
+      "prediction_length": 800,
+      "video_id": "08_045"
+    },
+    {
+      "frame_count": 797,
+      "prediction_length": 800,
+      "video_id": "08_048"
+    },
+    {
+      "frame_count": 519,
+      "prediction_length": 528,
+      "video_id": "09_003"
+    },
+    {
+      "frame_count": 500,
+      "prediction_length": 512,
+      "video_id": "09_005"
+    },
+    {
+      "frame_count": 1850,
+      "prediction_length": 1856,
+      "video_id": "10_005"
+    },
+    {
+      "frame_count": 1225,
+      "prediction_length": 1232,
+      "video_id": "10_008"
+    },
+    {
+      "frame_count": 775,
+      "prediction_length": 784,
+      "video_id": "10_011"
+    },
+    {
+      "frame_count": 1075,
+      "prediction_length": 1088,
+      "video_id": "12_004"
+    },
+    {
+      "frame_count": 850,
+      "prediction_length": 864,
+      "video_id": "12_007"
+    },
+    {
+      "frame_count": 601,
+      "prediction_length": 608,
+      "video_id": "13_001"
+    }
+  ],
+  "videos": [
+    {
+      "centers": 28,
+      "prediction_length": 448,
+      "raw_frame_count": 433,
+      "resumed": false,
+      "video_id": "01_0015"
+    },
+    {
+      "centers": 39,
+      "prediction_length": 608,
+      "raw_frame_count": 601,
+      "resumed": false,
+      "video_id": "01_0025"
+    },
+    {
+      "centers": 30,
+      "prediction_length": 464,
+      "raw_frame_count": 457,
+      "resumed": false,
+      "video_id": "01_0028"
+    },
+    {
+      "centers": 21,
+      "prediction_length": 320,
+      "raw_frame_count": 313,
+      "resumed": false,
+      "video_id": "01_0055"
+    },
+    {
+      "centers": 34,
+      "prediction_length": 544,
+      "raw_frame_count": 529,
+      "resumed": false,
+      "video_id": "01_0056"
+    },
+    {
+      "centers": 27,
+      "prediction_length": 416,
+      "raw_frame_count": 409,
+      "resumed": false,
+      "video_id": "01_0135"
+    },
+    {
+      "centers": 34,
+      "prediction_length": 544,
+      "raw_frame_count": 529,
+      "resumed": false,
+      "video_id": "01_0136"
+    },
+    {
+      "centers": 21,
+      "prediction_length": 320,
+      "raw_frame_count": 313,
+      "resumed": false,
+      "video_id": "03_0033"
+    },
+    {
+      "centers": 28,
+      "prediction_length": 448,
+      "raw_frame_count": 433,
+      "resumed": false,
+      "video_id": "03_0059"
+    },
+    {
+      "centers": 24,
+      "prediction_length": 368,
+      "raw_frame_count": 361,
+      "resumed": false,
+      "video_id": "04_0012"
+    },
+    {
+      "centers": 42,
+      "prediction_length": 656,
+      "raw_frame_count": 649,
+      "resumed": false,
+      "video_id": "05_0019"
+    },
+    {
+      "centers": 25,
+      "prediction_length": 400,
+      "raw_frame_count": 385,
+      "resumed": false,
+      "video_id": "07_0006"
+    },
+    {
+      "centers": 30,
+      "prediction_length": 464,
+      "raw_frame_count": 457,
+      "resumed": false,
+      "video_id": "07_0008"
+    },
+    {
+      "centers": 16,
+      "prediction_length": 256,
+      "raw_frame_count": 241,
+      "resumed": false,
+      "video_id": "07_0048"
+    },
+    {
+      "centers": 22,
+      "prediction_length": 352,
+      "raw_frame_count": 337,
+      "resumed": false,
+      "video_id": "08_0058"
+    },
+    {
+      "centers": 28,
+      "prediction_length": 448,
+      "raw_frame_count": 433,
+      "resumed": false,
+      "video_id": "10_0042"
+    },
+    {
+      "centers": 19,
+      "prediction_length": 304,
+      "raw_frame_count": 289,
+      "resumed": false,
+      "video_id": "12_0151"
+    },
+    {
+      "centers": 15,
+      "prediction_length": 224,
+      "raw_frame_count": 217,
+      "resumed": false,
+      "video_id": "12_0173"
+    },
+    {
+      "centers": 47,
+      "prediction_length": 752,
+      "raw_frame_count": 737,
+      "resumed": false,
+      "video_id": "01_012"
+    },
+    {
+      "centers": 60,
+      "prediction_length": 944,
+      "raw_frame_count": 943,
+      "resumed": false,
+      "video_id": "01_027"
+    },
+    {
+      "centers": 62,
+      "prediction_length": 976,
+      "raw_frame_count": 968,
+      "resumed": false,
+      "video_id": "01_030"
+    },
+    {
+      "centers": 61,
+      "prediction_length": 976,
+      "raw_frame_count": 961,
+      "resumed": false,
+      "video_id": "01_039"
+    },
+    {
+      "centers": 56,
+      "prediction_length": 880,
+      "raw_frame_count": 877,
+      "resumed": false,
+      "video_id": "01_043"
+    },
+    {
+      "centers": 67,
+      "prediction_length": 1056,
+      "raw_frame_count": 1056,
+      "resumed": false,
+      "video_id": "01_047"
+    },
+    {
+      "centers": 52,
+      "prediction_length": 816,
+      "raw_frame_count": 805,
+      "resumed": false,
+      "video_id": "01_050"
+    },
+    {
+      "centers": 46,
+      "prediction_length": 736,
+      "raw_frame_count": 721,
+      "resumed": false,
+      "video_id": "01_055"
+    },
+    {
+      "centers": 47,
+      "prediction_length": 736,
+      "raw_frame_count": 733,
+      "resumed": false,
+      "video_id": "01_057"
+    },
+    {
+      "centers": 66,
+      "prediction_length": 1040,
+      "raw_frame_count": 1033,
+      "resumed": false,
+      "video_id": "01_078"
+    },
+    {
+      "centers": 51,
+      "prediction_length": 800,
+      "raw_frame_count": 787,
+      "resumed": false,
+      "video_id": "01_080"
+    },
+    {
+      "centers": 52,
+      "prediction_length": 816,
+      "raw_frame_count": 807,
+      "resumed": false,
+      "video_id": "01_082"
+    },
+    {
+      "centers": 58,
+      "prediction_length": 912,
+      "raw_frame_count": 907,
+      "resumed": false,
+      "video_id": "02_001"
+    },
+    {
+      "centers": 47,
+      "prediction_length": 736,
+      "raw_frame_count": 735,
+      "resumed": false,
+      "video_id": "02_003"
+    },
+    {
+      "centers": 20,
+      "prediction_length": 304,
+      "raw_frame_count": 300,
+      "resumed": false,
+      "video_id": "02_007"
+    },
+    {
+      "centers": 20,
+      "prediction_length": 304,
+      "raw_frame_count": 300,
+      "resumed": false,
+      "video_id": "02_008"
+    },
+    {
+      "centers": 39,
+      "prediction_length": 608,
+      "raw_frame_count": 600,
+      "resumed": false,
+      "video_id": "02_009"
+    },
+    {
+      "centers": 15,
+      "prediction_length": 240,
+      "raw_frame_count": 225,
+      "resumed": false,
+      "video_id": "02_012"
+    },
+    {
+      "centers": 40,
+      "prediction_length": 640,
+      "raw_frame_count": 625,
+      "resumed": false,
+      "video_id": "05_005"
+    },
+    {
+      "centers": 36,
+      "prediction_length": 560,
+      "raw_frame_count": 553,
+      "resumed": false,
+      "video_id": "05_016"
+    },
+    {
+      "centers": 67,
+      "prediction_length": 1072,
+      "raw_frame_count": 1057,
+      "resumed": false,
+      "video_id": "05_021"
+    },
+    {
+      "centers": 49,
+      "prediction_length": 768,
+      "raw_frame_count": 768,
+      "resumed": false,
+      "video_id": "05_043"
+    },
+    {
+      "centers": 48,
+      "prediction_length": 752,
+      "raw_frame_count": 738,
+      "resumed": false,
+      "video_id": "05_049"
+    },
+    {
+      "centers": 47,
+      "prediction_length": 752,
+      "raw_frame_count": 737,
+      "resumed": false,
+      "video_id": "05_054"
+    },
+    {
+      "centers": 47,
+      "prediction_length": 752,
+      "raw_frame_count": 737,
+      "resumed": false,
+      "video_id": "05_058"
+    },
+    {
+      "centers": 65,
+      "prediction_length": 1024,
+      "raw_frame_count": 1023,
+      "resumed": false,
+      "video_id": "06_003"
+    },
+    {
+      "centers": 47,
+      "prediction_length": 736,
+      "raw_frame_count": 722,
+      "resumed": false,
+      "video_id": "06_018"
+    },
+    {
+      "centers": 47,
+      "prediction_length": 736,
+      "raw_frame_count": 723,
+      "resumed": false,
+      "video_id": "06_022"
+    },
+    {
+      "centers": 85,
+      "prediction_length": 1344,
+      "raw_frame_count": 1335,
+      "resumed": false,
+      "video_id": "06_026"
+    },
+    {
+      "centers": 48,
+      "prediction_length": 768,
+      "raw_frame_count": 753,
+      "resumed": false,
+      "video_id": "06_029"
+    },
+    {
+      "centers": 49,
+      "prediction_length": 768,
+      "raw_frame_count": 756,
+      "resumed": false,
+      "video_id": "06_030"
+    },
+    {
+      "centers": 52,
+      "prediction_length": 816,
+      "raw_frame_count": 816,
+      "resumed": false,
+      "video_id": "08_001"
+    },
+    {
+      "centers": 50,
+      "prediction_length": 784,
+      "raw_frame_count": 784,
+      "resumed": false,
+      "video_id": "08_006"
+    },
+    {
+      "centers": 46,
+      "prediction_length": 736,
+      "raw_frame_count": 721,
+      "resumed": false,
+      "video_id": "08_011"
+    },
+    {
+      "centers": 84,
+      "prediction_length": 1328,
+      "raw_frame_count": 1321,
+      "resumed": false,
+      "video_id": "08_021"
+    },
+    {
+      "centers": 58,
+      "prediction_length": 912,
+      "raw_frame_count": 901,
+      "resumed": false,
+      "video_id": "08_030"
+    },
+    {
+      "centers": 70,
+      "prediction_length": 1120,
+      "raw_frame_count": 1105,
+      "resumed": false,
+      "video_id": "08_037"
+    },
+    {
+      "centers": 75,
+      "prediction_length": 1184,
+      "raw_frame_count": 1177,
+      "resumed": false,
+      "video_id": "08_043"
+    },
+    {
+      "centers": 51,
+      "prediction_length": 800,
+      "raw_frame_count": 797,
+      "resumed": false,
+      "video_id": "08_045"
+    },
+    {
+      "centers": 51,
+      "prediction_length": 800,
+      "raw_frame_count": 797,
+      "resumed": false,
+      "video_id": "08_048"
+    },
+    {
+      "centers": 34,
+      "prediction_length": 528,
+      "raw_frame_count": 519,
+      "resumed": false,
+      "video_id": "09_003"
+    },
+    {
+      "centers": 33,
+      "prediction_length": 512,
+      "raw_frame_count": 500,
+      "resumed": false,
+      "video_id": "09_005"
+    },
+    {
+      "centers": 117,
+      "prediction_length": 1856,
+      "raw_frame_count": 1850,
+      "resumed": false,
+      "video_id": "10_005"
+    },
+    {
+      "centers": 78,
+      "prediction_length": 1232,
+      "raw_frame_count": 1225,
+      "resumed": false,
+      "video_id": "10_008"
+    },
+    {
+      "centers": 50,
+      "prediction_length": 784,
+      "raw_frame_count": 775,
+      "resumed": false,
+      "video_id": "10_011"
+    },
+    {
+      "centers": 69,
+      "prediction_length": 1088,
+      "raw_frame_count": 1075,
+      "resumed": false,
+      "video_id": "12_004"
+    },
+    {
+      "centers": 55,
+      "prediction_length": 864,
+      "raw_frame_count": 850,
+      "resumed": false,
+      "video_id": "12_007"
+    },
+    {
+      "centers": 39,
+      "prediction_length": 608,
+      "raw_frame_count": 601,
+      "resumed": false,
+      "video_id": "13_001"
+    }
+  ],
+  "vlm_calls": 3036,
+  "wall_elapsed_seconds": 7382.591665592045
+}

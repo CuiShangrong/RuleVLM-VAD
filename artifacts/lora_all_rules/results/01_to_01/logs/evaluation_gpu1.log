@@ -1,0 +1,418 @@
+{
+  "method": "Weakly-Supervised PEFT LoRA Direct VLM + all source normal rules",
+  "setup": "01_to_01",
+  "source_domain": "01",
+  "target_domain": "01",
+  "frame_auroc": 0.924567397987833,
+  "frame_ap": 0.37895605333387733,
+  "macro_auroc": 0.5864145492375065,
+  "macro_auc_valid_videos": 16,
+  "gt_frames": 41120,
+  "prediction_frames": 41120,
+  "anomalous_frames": 2532,
+  "videos": 57,
+  "per_video": [
+    {
+      "video_id": "01_0015",
+      "frames": 448,
+      "anomalous_frames": 288,
+      "auroc": 0.7056966145833333,
+      "ap": 0.8081832467784349
+    },
+    {
+      "video_id": "01_0025",
+      "frames": 608,
+      "anomalous_frames": 55,
+      "auroc": 0.7958244287358212,
+      "ap": 0.1784421967324435
+    },
+    {
+      "video_id": "01_0027",
+      "frames": 416,
+      "anomalous_frames": 74,
+      "auroc": 0.7927730361940888,
+      "ap": 0.3855151002698228
+    },
+    {
+      "video_id": "01_0028",
+      "frames": 464,
+      "anomalous_frames": 64,
+      "auroc": 0.6140625,
+      "ap": 0.16192705374908198
+    },
+    {
+      "video_id": "01_0051",
+      "frames": 352,
+      "anomalous_frames": 170,
+      "auroc": 0.5573691014867486,
+      "ap": 0.6169559955600653
+    },
+    {
+      "video_id": "01_0052",
+      "frames": 352,
+      "anomalous_frames": 89,
+      "auroc": 0.614324774640065,
+      "ap": 0.27850419552067623
+    },
+    {
+      "video_id": "01_0053",
+      "frames": 464,
+      "anomalous_frames": 235,
+      "auroc": 0.6810554678063737,
+      "ap": 0.5603078763182275
+    },
+    {
+      "video_id": "01_0055",
+      "frames": 320,
+      "anomalous_frames": 252,
+      "auroc": 0.07347105508870215,
+      "ap": 0.5996982457232023
+    },
+    {
+      "video_id": "01_0056",
+      "frames": 544,
+      "anomalous_frames": 135,
+      "auroc": 0.8193063479127048,
+      "ap": 0.4326217187146979
+    },
+    {
+      "video_id": "01_0064",
+      "frames": 304,
+      "anomalous_frames": 228,
+      "auroc": 0.025623268698060944,
+      "ap": 0.5428331537273063
+    },
+    {
+      "video_id": "01_0135",
+      "frames": 416,
+      "anomalous_frames": 189,
+      "auroc": 0.8133347318369345,
+      "ap": 0.6895195131711445
+    },
+    {
+      "video_id": "01_0136",
+      "frames": 544,
+      "anomalous_frames": 311,
+      "auroc": 0.8638822571519258,
+      "ap": 0.9035409528914173
+    },
+    {
+      "video_id": "01_0139",
+      "frames": 224,
+      "anomalous_frames": 107,
+      "auroc": 0.27414330218068533,
+      "ap": 0.35587254439906335
+    },
+    {
+      "video_id": "01_0141",
+      "frames": 320,
+      "anomalous_frames": 146,
+      "auroc": 0.5452881435994331,
+      "ap": 0.44112491685749533
+    },
+    {
+      "video_id": "01_0162",
+      "frames": 208,
+      "anomalous_frames": 104,
+      "auroc": 0.7155140532544378,
+      "ap": 0.6275762588441693
+    },
+    {
+      "video_id": "01_0177",
+      "frames": 320,
+      "anomalous_frames": 85,
+      "auroc": 0.4909637046307885,
+      "ap": 0.23761910686003798
+    },
+    {
+      "video_id": "01_001",
+      "frames": 768,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_004",
+      "frames": 784,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_006",
+      "frames": 512,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_008",
+      "frames": 1024,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_012",
+      "frames": 752,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_018",
+      "frames": 848,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_021",
+      "frames": 1024,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_026",
+      "frames": 736,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_027",
+      "frames": 944,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_028",
+      "frames": 944,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_030",
+      "frames": 976,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_032",
+      "frames": 1200,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_034",
+      "frames": 896,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_038",
+      "frames": 496,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_039",
+      "frames": 976,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_040",
+      "frames": 1168,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_043",
+      "frames": 880,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_045",
+      "frames": 608,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_047",
+      "frames": 1056,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_050",
+      "frames": 816,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_052",
+      "frames": 976,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_053",
+      "frames": 1120,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_055",
+      "frames": 736,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_056",
+      "frames": 1024,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_057",
+      "frames": 736,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_058",
+      "frames": 736,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_059",
+      "frames": 736,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_061",
+      "frames": 896,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_064",
+      "frames": 656,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_065",
+      "frames": 624,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_071",
+      "frames": 1056,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_072",
+      "frames": 1056,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_074",
+      "frames": 1040,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_075",
+      "frames": 576,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_076",
+      "frames": 560,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_077",
+      "frames": 704,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_078",
+      "frames": 1040,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_079",
+      "frames": 720,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_080",
+      "frames": 800,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_081",
+      "frames": 800,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    },
+    {
+      "video_id": "01_082",
+      "frames": 816,
+      "anomalous_frames": 0,
+      "auroc": null,
+      "ap": null
+    }
+  ],
+  "prediction_sha256": "be8c3a2c52006f34145765239b6014ac53704c5a0da136dcbbe42a348c824560",
+  "adapter_model_sha256": "794182ad9bc5c8b54a754e80e7f235c56d31d3e937de101852c0f463959b76cb",
+  "evaluation_after_lock": true
+}

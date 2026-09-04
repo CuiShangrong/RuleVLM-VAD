@@ -1,0 +1,43 @@
+{
+  "raw_text": "{\n  \"classifications\": [\n    {\n      \"rule_id\": \"R001\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific surface type (paved plaza) and location.\"\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the scene layout (open space) which dictates linear pathing.\"\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Social spacing behavior is universal and independent of scene geometry.\"\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Carrying personal items is a general human behavior not tied to specific scene features.\"\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Group walking dynamics are general social behaviors transferable across domains.\"\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Using handheld devices while walking is a general behavioral trait.\"\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Consistent gait and lack of erratic movement are general indicators of normal behavior.\"\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific static objects (manhole covers, trash bins) in the scene.\"\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on specific scene boundaries (grassy areas, curbs).\"\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific location (walkway edge) and scene layout.\"\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Explicitly references the camera view (towards or away from camera).\"\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the scene layout (open areas) suitable for recreational activities.\"\n    }\n  ]\n}",
+  "response": {
+    "id": "chatcmpl-a2ed147427b4650b",
+    "object": "chat.completion",
+    "created": 1788247074,
+    "model": "Qwen/Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"classifications\": [\n    {\n      \"rule_id\": \"R001\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific surface type (paved plaza) and location.\"\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the scene layout (open space) which dictates linear pathing.\"\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Social spacing behavior is universal and independent of scene geometry.\"\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Carrying personal items is a general human behavior not tied to specific scene features.\"\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Group walking dynamics are general social behaviors transferable across domains.\"\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Using handheld devices while walking is a general behavioral trait.\"\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Consistent gait and lack of erratic movement are general indicators of normal behavior.\"\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific static objects (manhole covers, trash bins) in the scene.\"\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on specific scene boundaries (grassy areas, curbs).\"\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific location (walkway edge) and scene layout.\"\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Explicitly references the camera view (towards or away from camera).\"\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the scene layout (open areas) suitable for recreational activities.\"\n    }\n  ]\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-fb64ca09",
+    "usage": {
+      "prompt_tokens": 351,
+      "total_tokens": 937,
+      "completion_tokens": 586,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "elapsed_seconds": 6.185465206974186
+}

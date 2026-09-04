@@ -1,0 +1,7 @@
+{
+  "gt_read_before_lock": false,
+  "length": 41120,
+  "prediction": "/workspace/direct_vlm/fair_tuned/fair_runs/peft_native_formal_v1/inference/08_to_01/targets/domain_01/frame_scores.npy",
+  "sha256": "028f2d9947114130a642349f55aeef43855ff7243692ffe3ee38ffa8523bb6d5",
+  "target_name": "domain_01"
+}

@@ -1,0 +1,43 @@
+{
+  "raw_text": "{\n  \"classifications\": [\n    {\n      \"rule_id\": \"R001\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of paved paths.\"\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific layout of a walkway allowing bidirectional flow.\"\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general social grouping behavior independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general interaction norms independent of specific scene geometry.\"\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific hazards like railings and water features.\"\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general pedestrian attributes independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general behavior (using devices) independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific structures or lamp posts.\"\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general kinematic smoothness independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of fixed objects like trees and posts.\"\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Density is a property of the specific scene's traffic volume and layout.\"\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes the general principle of static background vs. dynamic foreground.\"\n    }\n  ]\n}",
+  "response": {
+    "id": "chatcmpl-80287b239ad1212f",
+    "object": "chat.completion",
+    "created": 1788255254,
+    "model": "Qwen/Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"classifications\": [\n    {\n      \"rule_id\": \"R001\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of paved paths.\"\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the specific layout of a walkway allowing bidirectional flow.\"\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general social grouping behavior independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general interaction norms independent of specific scene geometry.\"\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific hazards like railings and water features.\"\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general pedestrian attributes independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general behavior (using devices) independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of specific structures or lamp posts.\"\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes general kinematic smoothness independent of scene layout.\"\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Depends on the presence of fixed objects like trees and posts.\"\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"category\": \"scene_specific\",\n      \"reason\": \"Density is a property of the specific scene's traffic volume and layout.\"\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"category\": \"domain_general\",\n      \"reason\": \"Describes the general principle of static background vs. dynamic foreground.\"\n    }\n  ]\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-fb64ca09",
+    "usage": {
+      "prompt_tokens": 329,
+      "total_tokens": 887,
+      "completion_tokens": 558,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "elapsed_seconds": 6.172846582019702
+}

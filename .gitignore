@@ -1,0 +1,31 @@
+# Generated data, model weights and service/runtime caches are intentionally excluded.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+runtime_cache/
+cache/
+logs/
+wandb/
+
+# The released experiment logs are small, immutable audit artifacts.
+!artifacts/**/logs/
+!artifacts/**/logs/**
+
+# ShanghaiTech raw data, extracted frames, I3D features and GT masks.
+datasets/
+features/
+work/
+frame_label/
+test_frame_mask/
+test_pixel_mask/
+*.avi
+*.mp4
+*.jpg
+*.jpeg
+
+# Base-model cache. The small LoRA adapters committed under artifacts/ are kept.
+models--Qwen--Qwen3.8-27B/
+*.safetensors
+!artifacts/lora/adapters/*/selected_adapter/adapter_model.safetensors

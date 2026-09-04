@@ -1,0 +1,18 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+  "seed": 2022,
+  "source_domain": "mixed",
+  "source_label": "normal",
+  "source_split": "SH_Train.txt",
+  "source_normal_videos": 175,
+  "clips_per_video": 2,
+  "description_count": 350,
+  "source_abnormal_videos_used": 0,
+  "target_test_or_gt_used": false,
+  "generation_prompt_sha256": "f9662f0266e64ebdf2473df7abff4497fcdaad3d842e485cf35dd37b50f52148",
+  "vlm_calls": 350,
+  "description_rows_total": 350,
+  "sum_vlm_elapsed_seconds": 1160.972972693271
+}

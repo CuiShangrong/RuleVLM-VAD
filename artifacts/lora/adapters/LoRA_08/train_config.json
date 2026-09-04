@@ -1,0 +1,126 @@
+{
+  "batch_size_videos": 1,
+  "clips_per_video": 8,
+  "epochs": 3,
+  "fair_config": {
+    "center_stride": 16,
+    "context_frames": 240,
+    "max_pixels": 16777216,
+    "min_pixels": 65536,
+    "sample_count": 8,
+    "seed": 2022
+  },
+  "frame_masks_used": false,
+  "full_source_split": {
+    "train_abnormal": [
+      "08_0044",
+      "08_0179",
+      "08_0178",
+      "08_0156",
+      "08_0079",
+      "08_0159"
+    ],
+    "train_normal": [
+      "08_012",
+      "08_009",
+      "08_014",
+      "08_039",
+      "08_013",
+      "08_038",
+      "08_049",
+      "08_033",
+      "08_036",
+      "08_018",
+      "08_031",
+      "08_019",
+      "08_041",
+      "08_003",
+      "08_020",
+      "08_040",
+      "08_027",
+      "08_044",
+      "08_042",
+      "08_035"
+    ],
+    "val_abnormal": [
+      "08_0078"
+    ],
+    "val_normal": [
+      "08_022",
+      "08_015",
+      "08_005",
+      "08_017",
+      "08_026"
+    ]
+  },
+  "gradient_accumulation": 4,
+  "lora": {
+    "alpha": 32,
+    "base_language_model_frozen": true,
+    "dropout": 0.05,
+    "implementation": "PEFT",
+    "r": 16,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "vision_encoder_frozen": true
+  },
+  "lr": 0.0001,
+  "max_train_videos_per_class": null,
+  "max_val_videos_per_class": null,
+  "method": "Weakly-Supervised PEFT LoRA Direct VLM",
+  "prompt": "You are given eight chronological surveillance frames from one approximately 10-second clip. Based only on visible evidence, classify the clip. Focus on human actions, interactions, vehicles, falls, fights, abnormal motion, and abnormal objects. Do not infer unseen events. Output exactly one character: 0 for normal or 1 for abnormal.",
+  "prompt_sha256": "c28017aaada03d682c46c41b5ca20332b0297b140370021080506d3f501ebf55",
+  "seed": 2022,
+  "source": "08",
+  "split": {
+    "train_abnormal": [
+      "08_0044",
+      "08_0179",
+      "08_0178",
+      "08_0156",
+      "08_0079",
+      "08_0159"
+    ],
+    "train_normal": [
+      "08_012",
+      "08_009",
+      "08_014",
+      "08_039",
+      "08_013",
+      "08_038",
+      "08_049",
+      "08_033",
+      "08_036",
+      "08_018",
+      "08_031",
+      "08_019",
+      "08_041",
+      "08_003",
+      "08_020",
+      "08_040",
+      "08_027",
+      "08_044",
+      "08_042",
+      "08_035"
+    ],
+    "val_abnormal": [
+      "08_0078"
+    ],
+    "val_normal": [
+      "08_022",
+      "08_015",
+      "08_005",
+      "08_017",
+      "08_026"
+    ]
+  },
+  "system_prompt": "You are a visual anomaly detector. Output only 0 or 1.",
+  "target_gt_used": false,
+  "test_manifest_read": false,
+  "topk": 2,
+  "training_data": "SH_Train.txt video-level weak labels only"
+}

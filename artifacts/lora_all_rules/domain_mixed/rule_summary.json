@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "source_domain": "mixed",
+  "source_label": "normal",
+  "source_abnormal_videos_used": 0,
+  "target_test_or_gt_used": false,
+  "description_count": 350,
+  "all_rule_count": 12,
+  "domain_general_count": 8,
+  "scene_specific_count": 4,
+  "aggregation_protocol": {
+    "type": "fixed_order_hierarchical_context_safe",
+    "chunk_size": 40,
+    "batch_count": 9,
+    "intermediate_rule_count": 108
+  },
+  "vlm_calls": 11,
+  "sum_vlm_elapsed_seconds": 116.49046630098019
+}

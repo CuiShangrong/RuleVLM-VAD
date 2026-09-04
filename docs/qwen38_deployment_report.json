@@ -1,0 +1,121 @@
+{
+  "status": "PASSED",
+  "model": {
+    "model_id": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "revision_frozen": true,
+    "cache_path": "/workspace/vlm_service/qwen3_8_27b/cache/huggingface/hub/models--Qwen--Qwen3.8-27B/snapshots/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "checkpoint_size_gib_reported_by_vllm": 51.75,
+    "dtype": "bfloat16",
+    "quantization": null
+  },
+  "host": {
+    "architecture": "aarch64",
+    "python": "3.12.3",
+    "gpu_inventory": "4 x NVIDIA GB200, 189471 MiB each",
+    "assigned_gpu": "physical GPU 0 only",
+    "driver": "580.105.08",
+    "workspace_filesystem": "/dev/md0",
+    "workspace_size": "21T",
+    "workspace_available_before_download": "20T"
+  },
+  "isolated_environment": {
+    "directory": "/workspace/vlm_service/qwen3_8_27b/env",
+    "container": "vlm-qwen3-8-27b",
+    "base_image": "urdmu-gb200:ready",
+    "vllm": "0.27.1",
+    "transformers": "5.15.1",
+    "torch": "2.13.0+cu130",
+    "torch_cuda": "13.0",
+    "numpy": "2.3.5",
+    "fastapi": "0.136.3",
+    "uvicorn": "0.52.4",
+    "baseline_environment_unchanged": {
+      "torch": "2.8.0a0+34c6371d24.nv25.08",
+      "numpy": "1.26.4"
+    }
+  },
+  "service": {
+    "framework": "vLLM",
+    "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+    "health": "http://127.0.0.1:8000/health",
+    "api_key": "EMPTY",
+    "public_exposure": false,
+    "tensor_parallel_size": 1,
+    "max_model_len": 32768,
+    "gpu_memory_utilization": 0.8,
+    "max_images_per_prompt": 8,
+    "max_videos_per_prompt": 0,
+    "startup_command_file": "/workspace/vlm_service/qwen3_8_27b/runtime/start_command.txt",
+    "pid_file": "/workspace/vlm_service/qwen3_8_27b/runtime/server.pid",
+    "log": "/workspace/vlm_service/qwen3_8_27b/logs/server.log",
+    "steady_gpu_memory_mib": 151231,
+    "model_weight_memory_gib": 51.1,
+    "kv_cache_memory_gib": 90.47,
+    "flash_attention": {
+      "enabled": true,
+      "vision_backend": "vLLM FLASH_ATTN",
+      "text_backend": "FlashInfer",
+      "decode_backend": "TRTLLM-GEN",
+      "gpu_arch": "sm100"
+    }
+  },
+  "generation": {
+    "enable_thinking": false,
+    "preserve_thinking": false,
+    "do_sample": false,
+    "deterministic_method": "temperature=0 greedy decoding",
+    "max_new_tokens": 512,
+    "response_format": "strict JSON schema",
+    "prompt": "Analyze 8 chronological surveillance frames, use visible evidence only, and emit JSON only. Each image is preceded by its original frame index."
+  },
+  "image_preprocessing": {
+    "processor": "Qwen3VLProcessor / Qwen2VLImageProcessorFast",
+    "configured_shortest_edge_pixels": 65536,
+    "configured_longest_edge_pixels": 16777216,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2,
+    "test_input_resolution": "native ShanghaiTech JPEG resolution; processor applies model configuration"
+  },
+  "multiframe_test": {
+    "normal_source_video": "01_002",
+    "abnormal_source_video": "01_0014",
+    "images_per_request": 8,
+    "runs_per_clip": 3,
+    "valid_json": "6/6",
+    "format_retries": 0,
+    "identical_within_each_deterministic_triplet": true,
+    "normal_ttft_seconds": [1.4144151519867592, 0.18661297200014815, 0.18042317900108173],
+    "normal_total_seconds": [3.390689702006057, 2.1651748819858767, 2.1596513930126093],
+    "abnormal_ttft_seconds": [0.35430577996885404, 0.19196746998932213, 0.1890373570495285],
+    "abnormal_total_seconds": [2.2297024179715663, 2.0660814509610645, 2.064011915004812]
+  },
+  "benchmark_20": {
+    "requests": 20,
+    "valid_json": 20,
+    "success_rate": 1.0,
+    "oom": false,
+    "mean_ttft_seconds": 0.17976362330082338,
+    "mean_total_seconds": 2.158816260143067,
+    "baseline_gpu_memory_mib": 151231,
+    "peak_gpu_memory_mib": 151231,
+    "end_gpu_memory_mib": 151231,
+    "memory_growth_mib": 0
+  },
+  "restart_test": {
+    "stop_released_gpu_to_mib": 5,
+    "same_revision_loaded": true,
+    "health_after_restart": true,
+    "same_request_result_identical_across_restart": true,
+    "service_left_running": true
+  },
+  "data_safety": {
+    "target_test_gt_read": false,
+    "target_test_masks_read": false,
+    "auroc_computed": false,
+    "ap_computed": false,
+    "formal_agent_inference_started": false,
+    "test_material": "source-training image frames only"
+  }
+}

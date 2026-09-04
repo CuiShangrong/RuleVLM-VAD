@@ -1,0 +1,43 @@
+{
+  "raw_text": "{\n  \"rules\": [\n    {\n      \"rule_id\": \"R001\",\n      \"rule\": \"Pedestrians walk at a steady, leisurely pace along paved paths.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C00\",\n        \"D08N_08_005_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"rule\": \"Individuals move continuously in both directions along the walkway.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C00\",\n        \"D08N_08_019_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"rule\": \"People walk in pairs or small groups without physical contact.\",\n      \"source_description_ids\": [\n        \"D08N_08_012_C00\",\n        \"D08N_08_015_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"rule\": \"Pedestrians pass one another without stopping or direct interaction.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C01\",\n        \"D08N_08_026_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"rule\": \"Individuals maintain safe distances from railings and water features.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C01\",\n        \"D08N_08_013_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"rule\": \"Walkers carry backpacks or personal items while moving.\",\n      \"source_description_ids\": [\n        \"D08N_08_015_C00\",\n        \"D08N_08_017_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"rule\": \"Some pedestrians use mobile devices while walking steadily.\",\n      \"source_description_ids\": [\n        \"D08N_08_015_C00\",\n        \"D08N_08_020_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"rule\": \"People stand briefly near structures or lamp posts.\",\n      \"source_description_ids\": [\n        \"D08N_08_005_C01\",\n        \"D08N_08_035_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"rule\": \"Movement is linear with no sudden stops or erratic turns.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C01\",\n        \"D08N_08_018_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"rule\": \"Pedestrians navigate around fixed objects like trees and posts.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C00\",\n        \"D08N_08_018_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"rule\": \"Foot traffic remains low-density and consistent throughout the scene.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C01\",\n        \"D08N_08_026_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"rule\": \"Environmental elements remain static while people move through.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C00\",\n        \"D08N_08_013_C01\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "id": "chatcmpl-8a2aa4c006c8508e",
+    "object": "chat.completion",
+    "created": 1788255242,
+    "model": "Qwen/Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"rules\": [\n    {\n      \"rule_id\": \"R001\",\n      \"rule\": \"Pedestrians walk at a steady, leisurely pace along paved paths.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C00\",\n        \"D08N_08_005_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"rule\": \"Individuals move continuously in both directions along the walkway.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C00\",\n        \"D08N_08_019_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"rule\": \"People walk in pairs or small groups without physical contact.\",\n      \"source_description_ids\": [\n        \"D08N_08_012_C00\",\n        \"D08N_08_015_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"rule\": \"Pedestrians pass one another without stopping or direct interaction.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C01\",\n        \"D08N_08_026_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"rule\": \"Individuals maintain safe distances from railings and water features.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C01\",\n        \"D08N_08_013_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"rule\": \"Walkers carry backpacks or personal items while moving.\",\n      \"source_description_ids\": [\n        \"D08N_08_015_C00\",\n        \"D08N_08_017_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"rule\": \"Some pedestrians use mobile devices while walking steadily.\",\n      \"source_description_ids\": [\n        \"D08N_08_015_C00\",\n        \"D08N_08_020_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"rule\": \"People stand briefly near structures or lamp posts.\",\n      \"source_description_ids\": [\n        \"D08N_08_005_C01\",\n        \"D08N_08_035_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"rule\": \"Movement is linear with no sudden stops or erratic turns.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C01\",\n        \"D08N_08_018_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"rule\": \"Pedestrians navigate around fixed objects like trees and posts.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C00\",\n        \"D08N_08_018_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"rule\": \"Foot traffic remains low-density and consistent throughout the scene.\",\n      \"source_description_ids\": [\n        \"D08N_08_009_C01\",\n        \"D08N_08_026_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"rule\": \"Environmental elements remain static while people move through.\",\n      \"source_description_ids\": [\n        \"D08N_08_003_C00\",\n        \"D08N_08_013_C01\"\n      ]\n    }\n  ]\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-fb64ca09",
+    "usage": {
+      "prompt_tokens": 12848,
+      "total_tokens": 13847,
+      "completion_tokens": 999,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "elapsed_seconds": 11.649556757998653
+}

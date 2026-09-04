@@ -1,0 +1,222 @@
+{
+  "adapter_model_sha256": "794182ad9bc5c8b54a754e80e7f235c56d31d3e937de101852c0f463959b76cb",
+  "anomalous_frames": 1030,
+  "evaluation_after_lock": true,
+  "frame_ap": 0.22248568827602555,
+  "frame_auroc": 0.8201824697155617,
+  "gt_frames": 23168,
+  "macro_auc_valid_videos": 5,
+  "macro_auroc": 0.6244046132167693,
+  "method": "Weakly-Supervised PEFT LoRA Direct VLM dense forced-choice token-probability",
+  "per_video": [
+    {
+      "anomalous_frames": 231,
+      "ap": 0.8890275391218261,
+      "auroc": 0.78864799112733,
+      "frames": 352,
+      "video_id": "08_0058"
+    },
+    {
+      "anomalous_frames": 320,
+      "ap": 0.8182034607998334,
+      "auroc": 0.7387478298611111,
+      "frames": 464,
+      "video_id": "08_0077"
+    },
+    {
+      "anomalous_frames": 174,
+      "ap": 0.7642719707907197,
+      "auroc": 0.7477674624226348,
+      "frames": 304,
+      "video_id": "08_0080"
+    },
+    {
+      "anomalous_frames": 141,
+      "ap": 0.34151029837782343,
+      "auroc": 0.34094060778953206,
+      "frames": 320,
+      "video_id": "08_0157"
+    },
+    {
+      "anomalous_frames": 164,
+      "ap": 0.5369201418822311,
+      "auroc": 0.5059191748832382,
+      "frames": 352,
+      "video_id": "08_0158"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 816,
+      "video_id": "08_001"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 1312,
+      "video_id": "08_002"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 784,
+      "video_id": "08_004"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 784,
+      "video_id": "08_006"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 784,
+      "video_id": "08_007"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 800,
+      "video_id": "08_008"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 720,
+      "video_id": "08_010"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 736,
+      "video_id": "08_011"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 944,
+      "video_id": "08_016"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 1328,
+      "video_id": "08_021"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 832,
+      "video_id": "08_023"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 752,
+      "video_id": "08_024"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 752,
+      "video_id": "08_025"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 1088,
+      "video_id": "08_028"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 912,
+      "video_id": "08_029"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 912,
+      "video_id": "08_030"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 800,
+      "video_id": "08_032"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 816,
+      "video_id": "08_034"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 1120,
+      "video_id": "08_037"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 1184,
+      "video_id": "08_043"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 800,
+      "video_id": "08_045"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 800,
+      "video_id": "08_046"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 800,
+      "video_id": "08_047"
+    },
+    {
+      "anomalous_frames": 0,
+      "ap": null,
+      "auroc": null,
+      "frames": 800,
+      "video_id": "08_048"
+    }
+  ],
+  "prediction_frames": 23168,
+  "prediction_sha256": "68ab4f43acb39886dd9fa85e4b86fbc9c8b76677a6504f2adfbe5ef9ad3aeb89",
+  "setup": "01_to_08",
+  "source_domain": "01",
+  "target_domain": "08",
+  "videos": 29
+}

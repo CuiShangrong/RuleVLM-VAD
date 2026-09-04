@@ -1,0 +1,43 @@
+{
+  "name": "Weakly-Supervised PEFT LoRA Direct VLM native-resolution protocol v1",
+  "base_model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "seed": 2022,
+  "source_supervision": "SH_Train.txt video-level weak labels only",
+  "target_test_or_gt_used_for_training_or_selection": false,
+  "sampling": {
+    "context_frames": 240,
+    "center_stride_frames": 16,
+    "sample_count": 8,
+    "training_centers_per_video": 8,
+    "training_center_resampling": "deterministic, changes with epoch",
+    "image_resolution": "native processor resolution",
+    "min_pixels": 65536,
+    "max_pixels": 16777216
+  },
+  "scoring": {
+    "prompt": "Dense Direct forced 0/1 prompt",
+    "score": "sigmoid(logit(token_1)-logit(token_0))"
+  },
+  "peft": {
+    "implementation": "PEFT",
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"],
+    "vision_encoder_frozen": true,
+    "base_language_model_frozen": true
+  },
+  "mil": {
+    "normal_bag": "all sampled clips supervised toward normal",
+    "abnormal_bag": "detached top-2 sampled clips supervised toward abnormal",
+    "abnormal_all_clips_labeled_positive": false
+  },
+  "optimization": {
+    "video_bag_batch_size": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 0.0001,
+    "max_epochs": 3,
+    "checkpoint_selection": "lowest source validation MIL loss"
+  }
+}

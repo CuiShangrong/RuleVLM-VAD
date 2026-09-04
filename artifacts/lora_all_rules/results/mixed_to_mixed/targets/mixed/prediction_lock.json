@@ -1,0 +1,9 @@
+{
+  "gt_read_before_lock": false,
+  "length": 143680,
+  "prediction": "/workspace/direct_vlm/fair_tuned/rule_prompt_runs/v2_all_source_rules_full/variants/mixed_to_mixed_parallel3/targets/mixed/frame_scores.npy",
+  "sha256": "29dbfdcc29ecb10473a009b29404621e8a0966f1e3ef0a87ee39309a5cf6e70c",
+  "shard_count": 3,
+  "sharded": true,
+  "target_name": "mixed"
+}

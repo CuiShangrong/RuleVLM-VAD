@@ -1,0 +1,78 @@
+{"epoch": 1, "loss": 0.00015676766633987427, "optimizer_step": false, "step": 1, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_020", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.24155527353286743, "optimizer_step": false, "step": 2, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_018", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.014004826545715332, "optimizer_step": false, "step": 3, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_009", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.0068735480308532715, "optimizer_step": true, "step": 4, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_012", "weak_video_label": 0}
+{"epoch": 1, "loss": 1.0146484375, "optimizer_step": false, "step": 5, "topk_indices": [1, 2], "video_id": "08_0044", "weak_video_label": 1}
+{"epoch": 1, "loss": 5.015625, "optimizer_step": false, "step": 6, "topk_indices": [0, 1], "video_id": "08_0159", "weak_video_label": 1}
+{"epoch": 1, "loss": 3.3828125, "optimizer_step": false, "step": 7, "topk_indices": [4, 2], "video_id": "08_0179", "weak_video_label": 1}
+{"epoch": 1, "loss": 0.0004996731877326965, "optimizer_step": true, "step": 8, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_031", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.857421875, "optimizer_step": false, "step": 9, "topk_indices": [3, 1], "video_id": "08_0178", "weak_video_label": 1}
+{"epoch": 1, "loss": 2.19140625, "optimizer_step": false, "step": 10, "topk_indices": [0, 1], "video_id": "08_0079", "weak_video_label": 1}
+{"epoch": 1, "loss": 0.00421142578125, "optimizer_step": false, "step": 11, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_042", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.0006505250930786133, "optimizer_step": true, "step": 12, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_044", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.0008367002010345459, "optimizer_step": false, "step": 13, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_014", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.012068510055541992, "optimizer_step": false, "step": 14, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_038", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.03358268737792969, "optimizer_step": false, "step": 15, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_033", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.009098052978515625, "optimizer_step": true, "step": 16, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_039", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.03194081783294678, "optimizer_step": false, "step": 17, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_019", "weak_video_label": 0}
+{"epoch": 1, "loss": 4.890625, "optimizer_step": false, "step": 18, "topk_indices": [2, 0], "video_id": "08_0156", "weak_video_label": 1}
+{"epoch": 1, "loss": 0.004400849342346191, "optimizer_step": false, "step": 19, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_040", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.05941271781921387, "optimizer_step": true, "step": 20, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_041", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.1372222900390625, "optimizer_step": false, "step": 21, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_003", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.137939453125, "optimizer_step": false, "step": 22, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_013", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.125274658203125, "optimizer_step": false, "step": 23, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_035", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.06465816497802734, "optimizer_step": true, "step": 24, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_036", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.20654296875, "optimizer_step": false, "step": 25, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_027", "weak_video_label": 0}
+{"epoch": 1, "loss": 0.151031494140625, "optimizer_step": true, "step": 26, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_049", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.55859375, "optimizer_step": false, "step": 1, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_041", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.5355224609375, "optimizer_step": false, "step": 2, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_019", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.449462890625, "optimizer_step": false, "step": 3, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_009", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.52191162109375, "optimizer_step": true, "step": 4, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_042", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.353515625, "optimizer_step": false, "step": 5, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_018", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.3731689453125, "optimizer_step": false, "step": 6, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_020", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.2991943359375, "optimizer_step": false, "step": 7, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_014", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.69427490234375, "optimizer_step": true, "step": 8, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_033", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.3193359375, "optimizer_step": false, "step": 9, "topk_indices": [1, 2], "video_id": "08_0044", "weak_video_label": 1}
+{"epoch": 2, "loss": 0.40087890625, "optimizer_step": false, "step": 10, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_012", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.1438140869140625, "optimizer_step": false, "step": 11, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_013", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.287689208984375, "optimizer_step": true, "step": 12, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_044", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.076934814453125, "optimizer_step": false, "step": 13, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_035", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.27567291259765625, "optimizer_step": false, "step": 14, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_003", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.104248046875, "optimizer_step": false, "step": 15, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_027", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.070159912109375, "optimizer_step": true, "step": 16, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_049", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.04164886474609375, "optimizer_step": false, "step": 17, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_031", "weak_video_label": 0}
+{"epoch": 2, "loss": 1.8125, "optimizer_step": false, "step": 18, "topk_indices": [2, 1], "video_id": "08_0156", "weak_video_label": 1}
+{"epoch": 2, "loss": 0.83203125, "optimizer_step": false, "step": 19, "topk_indices": [6, 2], "video_id": "08_0178", "weak_video_label": 1}
+{"epoch": 2, "loss": 0.06736612319946289, "optimizer_step": true, "step": 20, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_038", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.662109375, "optimizer_step": false, "step": 21, "topk_indices": [2, 1], "video_id": "08_0179", "weak_video_label": 1}
+{"epoch": 2, "loss": 0.865234375, "optimizer_step": false, "step": 22, "topk_indices": [2, 0], "video_id": "08_0079", "weak_video_label": 1}
+{"epoch": 2, "loss": 0.0045337677001953125, "optimizer_step": false, "step": 23, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_040", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.05217742919921875, "optimizer_step": true, "step": 24, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_036", "weak_video_label": 0}
+{"epoch": 2, "loss": 0.935546875, "optimizer_step": false, "step": 25, "topk_indices": [0, 1], "video_id": "08_0159", "weak_video_label": 1}
+{"epoch": 2, "loss": 0.017459869384765625, "optimizer_step": true, "step": 26, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_039", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.012612342834472656, "optimizer_step": false, "step": 1, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_036", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.3779296875, "optimizer_step": false, "step": 2, "topk_indices": [2, 1], "video_id": "08_0044", "weak_video_label": 1}
+{"epoch": 3, "loss": 0.0501103401184082, "optimizer_step": false, "step": 3, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_040", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.83203125, "optimizer_step": true, "step": 4, "topk_indices": [3, 0], "video_id": "08_0079", "weak_video_label": 1}
+{"epoch": 3, "loss": 0.08141231536865234, "optimizer_step": false, "step": 5, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_018", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.4990234375, "optimizer_step": false, "step": 6, "topk_indices": [3, 1], "video_id": "08_0178", "weak_video_label": 1}
+{"epoch": 3, "loss": 0.14617919921875, "optimizer_step": false, "step": 7, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_012", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.1132354736328125, "optimizer_step": true, "step": 8, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_013", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.379302978515625, "optimizer_step": false, "step": 9, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_003", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.10543060302734375, "optimizer_step": false, "step": 10, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_042", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.0357208251953125, "optimizer_step": false, "step": 11, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_039", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.08145904541015625, "optimizer_step": true, "step": 12, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_038", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.04541301727294922, "optimizer_step": false, "step": 13, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_019", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.04887199401855469, "optimizer_step": false, "step": 14, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_027", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.09257650375366211, "optimizer_step": false, "step": 15, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_014", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.48046875, "optimizer_step": true, "step": 16, "topk_indices": [1, 4], "video_id": "08_0159", "weak_video_label": 1}
+{"epoch": 3, "loss": 0.1596221923828125, "optimizer_step": false, "step": 17, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_033", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.06859588623046875, "optimizer_step": false, "step": 18, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_035", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.046695709228515625, "optimizer_step": false, "step": 19, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_044", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.11179637908935547, "optimizer_step": true, "step": 20, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_041", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.05141639709472656, "optimizer_step": false, "step": 21, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_031", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.03196549415588379, "optimizer_step": false, "step": 22, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_020", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.007999122142791748, "optimizer_step": false, "step": 23, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_049", "weak_video_label": 0}
+{"epoch": 3, "loss": 0.41796875, "optimizer_step": true, "step": 24, "topk_indices": [3, 2], "video_id": "08_0179", "weak_video_label": 1}
+{"epoch": 3, "loss": 0.013756871223449707, "optimizer_step": false, "step": 25, "topk_indices": [0, 1, 2, 3, 4, 5, 6, 7], "video_id": "08_009", "weak_video_label": 0}
+{"epoch": 3, "loss": 3.7265625, "optimizer_step": true, "step": 26, "topk_indices": [7, 0], "video_id": "08_0156", "weak_video_label": 1}

@@ -1,0 +1,43 @@
+{
+  "raw_text": "{\n  \"rules\": [\n    {\n      \"rule_id\": \"R001\",\n      \"rule\": \"Pedestrians walk at a steady, casual pace across the paved plaza.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_003_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"rule\": \"Individuals traverse the open space in continuous, linear paths.\",\n      \"source_description_ids\": [\n        \"D01N_01_003_C00\",\n        \"D01N_01_005_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"rule\": \"Pedestrians maintain personal space while passing others without direct interaction.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C01\",\n        \"D01N_01_005_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"rule\": \"People carry personal items like backpacks, bags, or umbrellas while walking.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_005_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"rule\": \"Individuals walk side-by-side or in small, loose groups.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_007_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"rule\": \"Some pedestrians look down at handheld devices while walking.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_016_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"rule\": \"Walking behavior is consistent without sudden stops or erratic movements.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_003_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"rule\": \"Pedestrians navigate around static features like manhole covers and trash bins.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C01\",\n        \"D01N_01_003_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"rule\": \"Individuals walk near the edge of grassy areas or curbs.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_003_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"rule\": \"Small groups may stand briefly near the walkway edge.\",\n      \"source_description_ids\": [\n        \"D01N_01_003_C01\",\n        \"D01N_01_067_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"rule\": \"Pedestrians move in various directions, including towards or away from camera.\",\n      \"source_description_ids\": [\n        \"D01N_01_022_C00\",\n        \"D01N_01_029_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"rule\": \"Casual recreational activities like kicking a ball occur in open areas.\",\n      \"source_description_ids\": [\n        \"D01N_01_016_C01\",\n        \"D01N_01_068_C01\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "id": "chatcmpl-9e5372decf72ac12",
+    "object": "chat.completion",
+    "created": 1788247062,
+    "model": "Qwen/Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"rules\": [\n    {\n      \"rule_id\": \"R001\",\n      \"rule\": \"Pedestrians walk at a steady, casual pace across the paved plaza.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_003_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"rule\": \"Individuals traverse the open space in continuous, linear paths.\",\n      \"source_description_ids\": [\n        \"D01N_01_003_C00\",\n        \"D01N_01_005_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"rule\": \"Pedestrians maintain personal space while passing others without direct interaction.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C01\",\n        \"D01N_01_005_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"rule\": \"People carry personal items like backpacks, bags, or umbrellas while walking.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_005_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"rule\": \"Individuals walk side-by-side or in small, loose groups.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_007_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"rule\": \"Some pedestrians look down at handheld devices while walking.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_016_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"rule\": \"Walking behavior is consistent without sudden stops or erratic movements.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_003_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"rule\": \"Pedestrians navigate around static features like manhole covers and trash bins.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C01\",\n        \"D01N_01_003_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"rule\": \"Individuals walk near the edge of grassy areas or curbs.\",\n      \"source_description_ids\": [\n        \"D01N_01_002_C00\",\n        \"D01N_01_003_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"rule\": \"Small groups may stand briefly near the walkway edge.\",\n      \"source_description_ids\": [\n        \"D01N_01_003_C01\",\n        \"D01N_01_067_C01\"\n      ]\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"rule\": \"Pedestrians move in various directions, including towards or away from camera.\",\n      \"source_description_ids\": [\n        \"D01N_01_022_C00\",\n        \"D01N_01_029_C00\"\n      ]\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"rule\": \"Casual recreational activities like kicking a ball occur in open areas.\",\n      \"source_description_ids\": [\n        \"D01N_01_016_C01\",\n        \"D01N_01_068_C01\"\n      ]\n    }\n  ]\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-fb64ca09",
+    "usage": {
+      "prompt_tokens": 22452,
+      "total_tokens": 23475,
+      "completion_tokens": 1023,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "elapsed_seconds": 11.99849632801488
+}

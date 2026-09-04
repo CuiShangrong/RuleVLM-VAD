@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "endpoint": "http://official-methods-qwen-gpu2:8000/v1/chat/completions",
+  "description_count": 84,
+  "all_rule_count": 12,
+  "domain_general_count": 5,
+  "scene_specific_count": 7,
+  "source_domain": "01",
+  "source_label": "normal",
+  "source_abnormal_videos_used": 0,
+  "domain08_train_used": false,
+  "target_test_or_gt_used": false,
+  "vlm_calls": 2,
+  "sum_vlm_elapsed_seconds": 18.183961534989066
+}

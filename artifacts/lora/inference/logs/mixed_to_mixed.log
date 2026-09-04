@@ -1,0 +1,5 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[ERROR] `min_frames` is part of Qwen3VLVideoProcessorInitKwargs, but not documented. Make sure to add it to the docstring of the function in /workspace/vlm_service/qwen3_8_27b/env/lib/python3.12/site-packages/transformers/models/qwen3_vl/video_processing_qwen3_vl.py.
+[ERROR] `max_frames` is part of Qwen3VLVideoProcessorInitKwargs, but not documented. Make sure to add it to the docstring of the function in /workspace/vlm_service/qwen3_8_27b/env/lib/python3.12/site-packages/transformers/models/qwen3_vl/video_processing_qwen3_vl.py.
+Loading weights:   0%|          | 0/1184 [00:00<?, ?it/s]Loading weights:  69%|██████▊   | 812/1184 [00:00<00:00, 8108.37it/s]Loading weights: 100%|██████████| 1184/1184 [00:00<00:00, 8206.34it/s]
+/workspace/direct_vlm/fair_tuned/fair_runs/peft_native_formal_v1/inference/mixed_to_mixed/targets/mixed

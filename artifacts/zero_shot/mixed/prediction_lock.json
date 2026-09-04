@@ -1,0 +1,7 @@
+{
+  "gt_read_before_lock": false,
+  "length": 143680,
+  "prediction": "/workspace/direct_vlm/zero shot/runs/dense_tokenprob_10s/targets/mixed/frame_scores.npy",
+  "sha256": "c52377667484814d60e2dfa2fcee760e389684e1a26e15876b1b36578a2e96de",
+  "target_name": "mixed"
+}

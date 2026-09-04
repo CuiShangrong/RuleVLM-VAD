@@ -1,0 +1,8 @@
+You classify surveillance normal-behavior rules for cross-domain transfer. Return JSON only.
+
+Classify every supplied rule exactly once.
+domain_general: not dependent on a camera, background, road shape, area position, scene layout, fixed movement direction, or camera view; theoretically transferable.
+scene_specific: depends on one or more of those scene properties.
+Return strict JSON only: {"classifications":[{"rule_id":"R001","category":"domain_general or scene_specific","reason":"one short reason"}]}
+
+Rules:

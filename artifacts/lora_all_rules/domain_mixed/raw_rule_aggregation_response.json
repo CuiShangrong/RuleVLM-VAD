@@ -1,0 +1,43 @@
+{
+  "raw_text": "{\n  \"rules\": [\n    {\n      \"rule_id\": \"R001\",\n      \"rule\": \"Pedestrians walk at a steady, casual pace without sudden stops.\",\n      \"source_description_ids\": [\n        \"B01_R001\",\n        \"B01_R009\"\n      ]\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"rule\": \"Individuals traverse open spaces in continuous, linear trajectories.\",\n      \"source_description_ids\": [\n        \"B01_R002\",\n        \"B02_R009\"\n      ]\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"rule\": \"Pedestrians maintain personal space while sharing public walkways.\",\n      \"source_description_ids\": [\n        \"B01_R003\",\n        \"B02_R004\"\n      ]\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"rule\": \"People pass one another without stopping or direct interaction.\",\n      \"source_description_ids\": [\n        \"B01_R004\",\n        \"B03_R003\"\n      ]\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"rule\": \"Companions walk side-by-side in close, consistent proximity.\",\n      \"source_description_ids\": [\n        \"B01_R005\",\n        \"B03_R004\"\n      ]\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"rule\": \"Groups move together in loose, organized formations.\",\n      \"source_description_ids\": [\n        \"B01_R006\",\n        \"B05_R011\"\n      ]\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"rule\": \"Pedestrians carry personal items like backpacks or bags.\",\n      \"source_description_ids\": [\n        \"B01_R007\",\n        \"B02_R006\"\n      ]\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"rule\": \"Individuals use handheld devices while walking steadily.\",\n      \"source_description_ids\": [\n        \"B01_R008\",\n        \"B04_R005\"\n      ]\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"rule\": \"Pedestrians navigate near static features like trash bins.\",\n      \"source_description_ids\": [\n        \"B01_R010\",\n        \"B02_R010\"\n      ]\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"rule\": \"Solitary pedestrians walk independently without interacting with others.\",\n      \"source_description_ids\": [\n        \"B01_R011\",\n        \"B09_R011\"\n      ]\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"rule\": \"Pedestrians walk near grassy borders and curbs.\",\n      \"source_description_ids\": [\n        \"B01_R012\",\n        \"B02_R011\"\n      ]\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"rule\": \"Continuous, low-density pedestrian traffic characterizes the public outdoor space.\",\n      \"source_description_ids\": [\n        \"B02_R012\",\n        \"B07_R011\"\n      ]\n    }\n  ]\n}",
+  "response": {
+    "id": "chatcmpl-af351d6e157900f8",
+    "object": "chat.completion",
+    "created": 1788309620,
+    "model": "Qwen/Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"rules\": [\n    {\n      \"rule_id\": \"R001\",\n      \"rule\": \"Pedestrians walk at a steady, casual pace without sudden stops.\",\n      \"source_description_ids\": [\n        \"B01_R001\",\n        \"B01_R009\"\n      ]\n    },\n    {\n      \"rule_id\": \"R002\",\n      \"rule\": \"Individuals traverse open spaces in continuous, linear trajectories.\",\n      \"source_description_ids\": [\n        \"B01_R002\",\n        \"B02_R009\"\n      ]\n    },\n    {\n      \"rule_id\": \"R003\",\n      \"rule\": \"Pedestrians maintain personal space while sharing public walkways.\",\n      \"source_description_ids\": [\n        \"B01_R003\",\n        \"B02_R004\"\n      ]\n    },\n    {\n      \"rule_id\": \"R004\",\n      \"rule\": \"People pass one another without stopping or direct interaction.\",\n      \"source_description_ids\": [\n        \"B01_R004\",\n        \"B03_R003\"\n      ]\n    },\n    {\n      \"rule_id\": \"R005\",\n      \"rule\": \"Companions walk side-by-side in close, consistent proximity.\",\n      \"source_description_ids\": [\n        \"B01_R005\",\n        \"B03_R004\"\n      ]\n    },\n    {\n      \"rule_id\": \"R006\",\n      \"rule\": \"Groups move together in loose, organized formations.\",\n      \"source_description_ids\": [\n        \"B01_R006\",\n        \"B05_R011\"\n      ]\n    },\n    {\n      \"rule_id\": \"R007\",\n      \"rule\": \"Pedestrians carry personal items like backpacks or bags.\",\n      \"source_description_ids\": [\n        \"B01_R007\",\n        \"B02_R006\"\n      ]\n    },\n    {\n      \"rule_id\": \"R008\",\n      \"rule\": \"Individuals use handheld devices while walking steadily.\",\n      \"source_description_ids\": [\n        \"B01_R008\",\n        \"B04_R005\"\n      ]\n    },\n    {\n      \"rule_id\": \"R009\",\n      \"rule\": \"Pedestrians navigate near static features like trash bins.\",\n      \"source_description_ids\": [\n        \"B01_R010\",\n        \"B02_R010\"\n      ]\n    },\n    {\n      \"rule_id\": \"R010\",\n      \"rule\": \"Solitary pedestrians walk independently without interacting with others.\",\n      \"source_description_ids\": [\n        \"B01_R011\",\n        \"B09_R011\"\n      ]\n    },\n    {\n      \"rule_id\": \"R011\",\n      \"rule\": \"Pedestrians walk near grassy borders and curbs.\",\n      \"source_description_ids\": [\n        \"B01_R012\",\n        \"B02_R011\"\n      ]\n    },\n    {\n      \"rule_id\": \"R012\",\n      \"rule\": \"Continuous, low-density pedestrian traffic characterizes the public outdoor space.\",\n      \"source_description_ids\": [\n        \"B02_R012\",\n        \"B07_R011\"\n      ]\n    }\n  ]\n}",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-fb64ca09",
+    "usage": {
+      "prompt_tokens": 2422,
+      "total_tokens": 3255,
+      "completion_tokens": 833,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "elapsed_seconds": 9.139145734952763
+}

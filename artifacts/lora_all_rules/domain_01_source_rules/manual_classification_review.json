@@ -1,0 +1,11 @@
+{
+  "reviewer": "Codex",
+  "review_scope": "All 12 Qwen-classified rules; provenance and category rationale inspected before target inference.",
+  "result": "passed_without_label_edits",
+  "notes": [
+    "R003-R007 describe human spacing, carried items, group walking, device use, and non-erratic gait; their domain_general labels are appropriate.",
+    "R001-R002 and R008-R012 explicitly rely on plaza/open-space geometry, fixed objects, edges, curbs, or camera direction; their scene_specific labels are appropriate.",
+    "No rule mentions Domain08, target-test labels, masks, AUROC, or an abnormal source video."
+  ],
+  "reviewed_rule_ids": ["R001", "R002", "R003", "R004", "R005", "R006", "R007", "R008", "R009", "R010", "R011", "R012"]
+}
